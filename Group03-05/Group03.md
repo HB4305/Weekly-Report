@@ -23,7 +23,23 @@
 
 
 ### 23127326 - Lê Mai Hoài Bảo
+- Check and redesign the Recipe tables in the database to ensure they are correct.
+- Insert sample data into the tables related to Recipes to facilitate API development.
 
+
+<details>
+<summary>Evidence</summary>
+- Because I was initially tasked with creating the Recipe tables in the database, but the database creator had already created them, I will review and redesign them if I find anything illogical.
+
+![CheckList](ref/checklist.png)
+
+- After checking and redesigning the tables, I will insert sample data into them to support the development of APIs related to Recipes.
+![InsertData](ref/insertdata.png)
+
+- Commit messages for the above tasks:
+![Commit Messages](ref/redesignDB.png)
+
+</details>
 
 ### 23127357 - Lê Anh Duy
 
