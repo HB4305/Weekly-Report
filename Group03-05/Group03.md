@@ -42,15 +42,18 @@
 </details>
 
 ### 23127357 - Lê Anh Duy
-
+- Initialize entities.
+- Explore which API is most suitable for calculating nutrition => CalorieNinjas API.
+- Explore and setup Google Gemini API for AI feature.
 
 ## AI Usage Declaration
-No AI tools were used this week.
-
+- Use to brainstorm the system design and research.
 
 ## Tasks Planned for Next Week
 
-
+### 23127357 - Lê Anh Duy
+- Setup Dependencies Injection.
+- Implement AI dish suggestion (backend for sure, frontend if have enough time).
 
 ## Issues
 
