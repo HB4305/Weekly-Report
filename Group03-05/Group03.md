@@ -47,7 +47,6 @@
 - Explore and setup Google Gemini API for AI feature.
 
 ## AI Usage Declaration
-- Use to brainstorm the system design and research.
 
 ## Tasks Planned for Next Week
 
