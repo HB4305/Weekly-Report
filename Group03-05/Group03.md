@@ -50,6 +50,10 @@
 
 ## Tasks Planned for Next Week
 
+### 23127326 - Lê Mai Hoài Bảo
+- Implement API to search for recipes based on name, ingredients, and difficulty level.
+- Implement API to retrieve detailed information about a specific recipe.
+
 ### 23127357 - Lê Anh Duy
 - Setup Dependencies Injection.
 - Implement AI dish suggestion (backend for sure, frontend if have enough time).
