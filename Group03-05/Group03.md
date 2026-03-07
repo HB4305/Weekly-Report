@@ -20,7 +20,17 @@
 </details>
 
 ### 23127205 - Lâm Hữu Khánh
+- Built the basic authentication skeleton for the Spring Boot server, including the User entity, UserRepository, and AuthRequest DTO.
+- Configured Spring Security (disabled CSRF, permitted public endpoints) and added JWT dependencies.
+- Created the AuthController with basic RESTful APIs for registration (/api/auth/register) and login (/api/auth/login).
+<details>
+<summary>Evidence</summary>
 
+![Authentication Skeleton](ref/skeleton.png)
+![Register Successfully](ref/registerAPI.png)
+![Login Successfully](ref/loginAPI.png)
+
+</details>
 
 ### 23127326 - Lê Mai Hoài Bảo
 - Check and redesign the Recipe tables in the database to ensure they are correct.
@@ -49,6 +59,10 @@
 ## AI Usage Declaration
 
 ## Tasks Planned for Next Week
+
+### 23127205 - Lâm Hữu Khánh
+- Finalize security logic on the Server: Write code to generate and validate actual JWT strings instead of simulated data.
+- API Integration: Configure the Retrofit library on Android to make authentication API calls to the Spring Boot server and store the JWT token locally.
 
 ### 23127326 - Lê Mai Hoài Bảo
 - Implement API to search for recipes based on name, ingredients, and difficulty level.
