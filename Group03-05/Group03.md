@@ -60,6 +60,10 @@
 
 ## Tasks Planned for Next Week
 
+### 23127122 - Nguyễn Duy Thịnh
+- Implement API enndpoints for Following systems.
+- Create the Android app's basic UI for following feed.
+
 ### 23127205 - Lâm Hữu Khánh
 - Finalize security logic on the Server: Write code to generate and validate actual JWT strings instead of simulated data.
 - API Integration: Configure the Retrofit library on Android to make authentication API calls to the Spring Boot server and store the JWT token locally.
