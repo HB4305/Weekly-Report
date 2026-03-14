@@ -76,7 +76,7 @@
     * The architectural structure for `RecipeDTO.java`, `RecipeDetailDTO.java`, `RecipeRepository.java`, `RecipeSpecification.java`, `RecipeService.java`, and `RecipeController.java`.
     * Logic for dynamic filtering using Spring Data JPA Specifications and PostgreSQL JSONB substring matching.
     * Sample API request/response shapes and curl commands.
-* **Which content was done independently and how the student edited or validated it:**
+* **Which content was done independently and how I edited and validated it:**
     * **Integration:** Incorporated the AI-generated logic into the existing project framework to match `ApiResponse<T>` and `PageResponse<T>` classes.
     * **Unit Testing:** Independently developed and executed Unit Tests using JUnit/Mockito to verify business logic and exception handling.
     * **Validation (Integration Testing):** Used **Swagger UI** (`/swagger-ui.html`) to perform manual integration testing with a real database to confirm filter accuracy.
