@@ -66,19 +66,19 @@
     * **Technical Verification:** Executed `./gradelw compileJava` to ensure code compatibility and syntax correctness.
 
 #### 4. Evidence
-**Prompts:** 
+* **Prompts:** 
 ![prompt_1](ref/prompt_recipe_1.png)
 ![prompt_2](ref/prompt_recipe_2.png)
-**Testing Evidence:** 
-- Unit tests for the Recipe module:
+* **Testing Evidence:** 
+    - Unit tests for the Recipe module:
 ![Unit Tests](ref/unit_test_recipe.png)
-- Integration testing using Swagger UI:
+    - Integration testing using Swagger UI:
 ![Integration Testing 1](ref/it_1.png)
 ![Integration Testing 2](ref/it_2.png)
 ![Integration Testing 3](ref/it_3.png)
 ![Integration Testing 4](ref/it_4.png)
 ![Integration Testing 5](ref/it_5.png)
-- Compilation success:
+    - Compilation success:
 ![Compilation](ref/compilation_recipe.png)
 
 ## Tasks Planned for Next Week
