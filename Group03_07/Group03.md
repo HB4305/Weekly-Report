@@ -70,10 +70,15 @@
     * `JwtService.java`, `JwtAuthFilter.java`, `SecurityConfig.java` – JWT and Spring Security boilerplate.
     * `AuthDto.java` and all request/response models – DTO boilerplate.
     * `AuthApiService.java` – Retrofit interface boilerplate.
+    * `fragment_login.xml`, `fragment_register.xml`, `fragment_forgot_password.xml`, `fragment_reset_password.xml` – UI layout boilerplate with branding and design system.
+    * `AuthController.java` – Spring Security controller with email enumeration prevention and SecureRandom OTP generation.
+    * `EmailService.java` – Email service boilerplate for password reset.
+    * `AuthViewModel.java`, `AuthRepository.java` – ViewModel and Repository boilerplate for API binding.
 * **Which content was done independently and how I edited and validated it:**
-    * **UI screens:** Custom `fragment_login.xml`, `fragment_register.xml`, `fragment_forgot_password.xml`, `fragment_reset_password.xml` with branding, consistent design system, and OTP input styling.
-    * **API Binding:** Bound `AuthApiService` to all auth UI components via `AuthViewModel` and `AuthRepository`.
-    * **Security:** Custom `AuthController.java` with email enumeration prevention, SecureRandom OTP generation, Google OAuth verification; custom `EmailService` for password reset; integrated JWT with `EncryptedSharedPreferences` (AES256-GCM).
+    * Custom OTP input styling and consistent design system applied to all auth UI layouts.
+    * Bound `AuthApiService` to all auth UI components via `AuthViewModel` and `AuthRepository`.
+    * Integrated JWT with `EncryptedSharedPreferences` (AES256-GCM) for secure token storage.
+    * Added Google OAuth verification logic to `AuthController.java`.
     * Compiled successfully and tested end-to-end authentication flow.
 
 #### 4. Evidence
