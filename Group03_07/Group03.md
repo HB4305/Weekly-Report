@@ -165,7 +165,7 @@
 * **Which content was done independently and how I edited and validated it:**
     * Reviewed the generated code to ensure it aligned with our project requirements and coding standards.
     * Performed integration testing using Swagger UI to verify API functionality and error handling.
-    * Technical Verification:** Executed `./gradelw compileJava` to ensure code compatibility and syntax correctness.
+    * Technical Verification: Executed `./gradelw compileJava` to ensure code compatibility and syntax correctness.
 ##### 4. Evidence
 * **Prompts:**
 
@@ -198,7 +198,7 @@
 * **Which content was done independently and how I edited and validated it:**
     * Reviewed the generated code to ensure it met our project requirements and coding standards.
     * Performed integration testing using Swagger UI to verify API functionality and error handling.
-    * Technical Verification:** Executed `./gradelw compileJava` to ensure code compatibility and syntax correctness.
+    * Technical Verification: Executed `./gradelw compileJava` to ensure code compatibility and syntax correctness.
 ##### 4. Evidence
 * **Prompts:**
 
