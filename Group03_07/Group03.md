@@ -254,6 +254,10 @@
 
 ### 23127326 - Lê Mai Hoài Bảo
 
+- Implement the feature to view recipe details (ingredients, quantities, etc.).
+- Develop hands-free cooking mode using SpeechRecognizer API.
+- Add timer functionality for cooking steps.
+
 ### 23127357 - Lê Anh Duy
 
 - Implement the MealPlanner APIs.
