@@ -275,4 +275,6 @@
 - Implement UI for delete recipe.
 - Implement UI for search results.
 ### 23127357 - Lê Anh Duy
+- Finish the implementation of the Meal Plan feature.
+- Finish the implementation of the Recipe Suggestion feature.
 ## Issues
