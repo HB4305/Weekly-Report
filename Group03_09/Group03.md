@@ -272,3 +272,5 @@ graph TD
 - Implement UI for search recipe.
 - Implement API for favorites list and collections.
 ### 23127357 - Lê Anh Duy
+- Finish implementing the backend for Admin Analytics, including the scheduled jobs for trend calculation and the API endpoints for the admin dashboard.
+- Start working on the Android UI for the Admin Analytics dashboard, integrating charts and visualizations to display the trending recipes, ingredients, and user engagement metrics.
