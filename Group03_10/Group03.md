@@ -84,6 +84,19 @@
 </details>
 
 ### 23127357 - Lê Anh Duy
+- Implemented the UI for the admin dashboard, including the ingredient and recipe trend charts.
+- Integrated the admin dashboard with the backend API to fetch data for the charts and display it correctly.
+
+<details>
+<summary>Evidence</summary>
+
+![commit](refs/l1.png)
+
+![commit](refs/l2.png)
+
+![commit](refs/l3.png)
+
+</details>
 
 ## AI Usage Declaration
 
@@ -164,6 +177,15 @@
 ![AI Usage Evidence](refs/ai_bao.png)
 
 ### 23127357 - Lê Anh Duy
+#### 1. General Information
+- **Tool name, version, and platform:** Claude Sonnet 4.6 (Anthropic), Codex 5.3 (OpenAI)
+- **Access time:** 2026-04-09, 2026-04-10, 2026-04-11
+
+#### 2. Usage Details
+- **Prompt used**: 
+
+![l4](refs/l4.png)
+![l5](refs/l5.png)
 
 ## Tasks Planned for Next Week
 
@@ -185,3 +207,5 @@
 - Implement API and UI for List favorite recipes.
 
 ### 23127357 - Lê Anh Duy
+- Binding the chatbot UI to the recipe details view.
+- Implementing remains sub-tasks.
