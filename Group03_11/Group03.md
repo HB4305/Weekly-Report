@@ -11,20 +11,17 @@
 ### 23127122 - Nguyễn Duy Thịnh
 - Finish the feed interaction feature.
 - Implement the article creation feature.
-<details>
 
 ![Commit message](refs/thinh_commit.png)
 ![Article creation view](refs/thinh_new_article_view.jpg)
 ![Feed view](refs/thinh_feed_view.jpg)
 
-</details>
 
 ### 23127205 - Lâm Hữu Khánh
 - Implement Push Notification feature (FCM).
 - Add notification bell icon with unread badge on feed header.
 - Trigger FCM push notifications for follow, like, and comment events.
 
-<details>
 <summary>Evidence</summary>
 
 - Notification in app:
@@ -47,13 +44,11 @@
 
 ![Commit Messages](refs/khanh_commit.png)
 
-</details>
 
 ### 23127326 - Lê Mai Hoài Bảo
 - Implemented API & UI for search user
 - Implemented API to favorite recipes and integrated UI with it
 
-<details>
 <summary>Evidence</summary>
 
 - Search user UI:
@@ -72,18 +67,16 @@
 
 ![Commit message](refs/bao_commit1.png)
 ![Commit message](refs/bao_commit2.png)
-</details>
+
 
 ### 23127357 - Lê Anh Duy
 - Wire the list of recipe to its details page.
 - Refine the UI of creating recipe.
 - Implement the "Change Ingredient using AI" feature.
 
-<details>
 <summary>Evidence</summary>
 
 ![Commit message](refs/duy_commit.png)
-</details>
 
 ## AI Usage Declaration
 
