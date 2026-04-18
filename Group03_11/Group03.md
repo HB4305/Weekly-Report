@@ -117,4 +117,5 @@ endpoints, and frontend integration steps.
 - Itegrate the API voice command to the UI
 - Implement API and UI for gallery feature
 - Implement API and UI for save recipe feature
+- Implemetn API and Ui for history feature
 ### 23127357 - Lê Anh Duy
