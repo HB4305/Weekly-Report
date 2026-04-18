@@ -51,7 +51,7 @@
 
 #### 4. Evidence of AI Usage
 
-![AI Usage Evidence](refs/thinh-prompt.png)
+![AI Usage Evidence](refs/thinh_prompt.png)
 
 ### 23127205 - Lâm Hữu Khánh
 
