@@ -12,8 +12,11 @@ Claude Sonnet 4.6 + Claude Opus 4.6 (Anthropic), claude.ai; Gemini Thinking 3 (G
 **View personalized feed**
 Stitch (Gemini 3.1 Pro) + Claude Sonnet 4.6 (Anthropic), accessed March 8–12 & March 26, 2026; prompts: MVVM feed brainstorm; *"api design for infinite scroll social feed"*; *"rewrite item_feed_post.xml with 4 post-type states using ViewStubs"*; AI generated `fragment_feed.xml`, `item_feed_post.xml`, 4 post-type XML includes; later independently implemented backend social endpoints.
 
-**Create and view blog posts / Share images and experiences alongside recipes**
+**Create and view blog posts**
 Claude Sonnet 4.6 (Anthropic), claude.ai, accessed April 3, 2026; AI generated `PostMapper.java`, `fragment_post_detail.xml`, `item_comment.xml`; later refactored DTOs for consistency between Android client and server.
+
+**Share images and experiences alongside recipes**
+Claude Sonnet 4.6 (Anthropic), accessed April 26, 2026; prompt: *"Please refactor the sharing post to have the ability to share recipe with photos"*; AI modified multiple files related to recipe sharing posts (migration, entity, service, endpoints); later have to rewire the uploading images flow to existing image upload service and test the sharing flow on Android.
 
 **Create challenges (Admin)**
 Claude Sonnet 4.6 (Anthropic), accessed May 5, 2026; prompt: *"Add create challenge view to match existing endpoints"*; AI generated `CreateChallengeFragment.java`, `ChallengeViewModel.java`; later tested manually on Android and verified API integration.
