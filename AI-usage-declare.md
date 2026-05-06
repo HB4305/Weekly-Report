@@ -47,8 +47,17 @@ Claude Opus 4.6 (Anthropic) via Claude Code CLI, accessed March 29–April 4, 20
 **Account privacy settings / Manage connections (Followers/Following)**
 Claude Opus 4.6 (Anthropic), accessed April 6–11, 2026; prompt: *"add private profile with mutual-follow access check; migrate image storage from Base64 to Cloudinary"*; AI suggested implementation flow and code-level changes for mutual-follow privacy and Cloudinary refactor; later adjusted to existing Spring Boot and Android structure, verified API integration, error handling, and navigation behavior.
 
-**Push notifications / App preferences / Manage users (Ban/Unban) / Moderate complaints**
-No AI usage declared.
+**Push notifications**
+Claude Opus 4.6 (Anthropic), accessed April 14–16, 2026; prompt: *"Scaffold Firebase Cloud Messaging integration for Android — FCM service, token repository, and Spring Boot push endpoint"*; AI generated `YumFcmService.java` boilerplate, `FcmTokenRepository.java`, and server-side `FcmPushService.java` with `NotificationController.java`; later added foreground/data-only message handling, Android 13+ `POST_NOTIFICATIONS` permission check, per-type preference filtering, and deep-link `PendingIntent` wiring.
+
+**App preferences**
+Claude Opus (Anthropic), accessed April 17, 2026; prompt: *"Generate a NotificationPreferences SharedPreferences wrapper and matching DTO for syncing notification toggles to a Spring Boot backend"*; AI generated `NotificationPreferences.java`, `NotificationPrefsPayload.java`, and `NotificationPreferencesDto.java`; later built `SettingsFragment` toggle UI, added private-account toggle backed by `ProfileRepository`, and implemented sync-from-backend on fragment resume.
+
+**Manage users (Ban/Unban)**
+Claude Opus 4.6 (Anthropic), accessed April 20–22, 2026; prompt: *"Create admin user management screen with ban/unban actions and a Spring Boot admin controller"*; AI generated `AdminManagementController.java`, `AdminManagementServiceImpl.java`, and `AdminManagementViewModel.java` scaffolding; later added batch-selection logic to `UserAdminAdapter`, wired toolbar menu actions for batch ban/unban, and tested pagination with real user data.
+
+**Moderate complaints**
+Claude Opus (Anthropic), accessed April 23–24, 2026; prompt: *"Add report moderation UI for admin — list pending reports with resolve and dismiss actions"*; AI generated `ReportAdminAdapter.java` and `ReportStatus.java` enum; later integrated into `ComplaintManagementFragment`, connected resolve/dismiss callbacks to `AdminManagementViewModel`, and verified status filter against backend `ReportController`.
 
 ---
 
@@ -75,8 +84,14 @@ Claude Opus (Anthropic), accessed 15:00, March 28, 2026; prompt: *"Implement tim
 **Hands-free mode**
 Claude Opus (Anthropic), accessed 16:00, March 28, 2026; prompt: *"Implement hands-free cooking mode using SpeechRecognizer API in Backend"*; AI generated `VoiceCommandType.java` (11 intents), `CookingModeService.java`, `CookingModeController.java` (`POST /api/cooking-mode/command`); later tested intent parsing and TTS responses via Swagger UI.
 
-**Save recipe as draft / Manage gallery / Manage favorite recipes**
-No AI usage declared.
+**Save recipe as draft**
+Claude Opus (Anthropic), accessed 10:00, March 24, 2026; prompt: *"Add draft/publish status to recipe creation — enum, server filter, and ViewModel state"*; AI generated `RecipeStatus.java` enum, draft-aware filter in `RecipeService.java`, and `_selectedStatus` LiveData in `CreateRecipeViewModel.java`; later integrated status selector chip into `CreateRecipeFragment` UI, wired publish-vs-draft toggle, and verified draft recipes surface only on the owner's profile tab.
+
+**Manage gallery**
+Claude Opus 4.6 (Anthropic), accessed 11:00, April 5, 2026; prompt: *"Scaffold a user gallery feature — Spring Boot controller/entity and Android repository with add/delete image endpoints"*; AI generated `GalleryController.java`, `GalleryImage.java` entity, DB migration, `GalleryRepository.java`, and `item_gallery_image.xml` grid layout; later implemented camera capture via `FileProvider`, runtime camera permission flow with `ActivityResultLauncher`, and two-step upload-then-save flow reusing the existing `ImageUploadRepository`.
+
+**Manage favorite recipes**
+Claude Opus (Anthropic), accessed March 30–April 1, 2026; prompt: *"Create favorite recipe feature — Spring Boot controller, JPA entity, and Android repository"*; AI generated `FavoriteRecipeController.java`, `FavoriteRecipeServiceImpl.java`, `FavoriteRecipe.java` entity, and `FavoriteRecipeRepository.java`; later added dual own/other-profile mode to `ProfileFavoritesFragment`, wired search-filter integration with parent `ProfileViewModel` LiveData, and implemented remove-on-long-press with `setFragmentResult` broadcast to refresh sibling tabs.
 
 ---
 
